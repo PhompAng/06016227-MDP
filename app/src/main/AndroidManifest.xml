@@ -21,7 +21,9 @@
         <activity android:name=".autocompletetextview.AutoCompleteTextViewActivity" />
         <activity android:name=".spinner.SpinnerActivity" />
         <activity android:name=".radio.RadioActivity" />
-        <activity android:name=".checkbox.CheckBoxActivity"></activity>
+        <activity android:name=".checkbox.CheckBoxActivity" />
+        <activity android:name=".listview.ListActivity" />
+        <activity android:name=".listview.ListDetailActivity"></activity>
     </application>
 
 </manifest>

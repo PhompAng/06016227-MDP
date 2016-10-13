@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import com.example.phompang.myapplication.autocompletetextview.AutoCompleteTextViewActivity;
 import com.example.phompang.myapplication.checkbox.CheckBoxActivity;
+import com.example.phompang.myapplication.listview.ListActivity;
 import com.example.phompang.myapplication.radio.RadioActivity;
 import com.example.phompang.myapplication.spinner.SpinnerActivity;
 
@@ -97,6 +98,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.checkbox) {
             Intent intent = new Intent(MainActivity.this, CheckBoxActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.list) {
+            Intent intent = new Intent(MainActivity.this, ListActivity.class);
             startActivity(intent);
         }
 

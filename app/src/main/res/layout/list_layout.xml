@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/listImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_camera"/>
+
+
+    <TextView
+        android:id="@+id/listFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/listImg" />
+
+    <TextView
+        android:id="@+id/listLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="testtest"
+        android:layout_marginLeft="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/listFName" />
+
+    <TextView
+        android:id="@+id/listPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234"
+        android:layout_below="@+id/listFName"
+        android:layout_toEndOf="@+id/listImg" />
+
+</RelativeLayout>
