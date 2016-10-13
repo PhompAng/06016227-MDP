@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".autocompletetextview.AutoCompleteTextViewActivity" />
         <activity android:name=".spinner.SpinnerActivity" />
-        <activity android:name=".radio.RadioActivity"></activity>
+        <activity android:name=".radio.RadioActivity" />
+        <activity android:name=".checkbox.CheckBoxActivity"></activity>
     </application>
 
 </manifest>
