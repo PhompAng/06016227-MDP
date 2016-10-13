@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.phompang.myapplication.autocompletetextview.AutoCompleteTextViewActivity;
+import com.example.phompang.myapplication.radio.RadioActivity;
 import com.example.phompang.myapplication.spinner.SpinnerActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -89,6 +90,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.spinner) {
             Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.radio) {
+            Intent intent = new Intent(MainActivity.this, RadioActivity.class);
             startActivity(intent);
         }
 

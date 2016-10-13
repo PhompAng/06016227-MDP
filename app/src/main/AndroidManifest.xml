@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".autocompletetextview.AutoCompleteTextViewActivity" />
-        <activity android:name=".spinner.SpinnerActivity"></activity>
+        <activity android:name=".spinner.SpinnerActivity" />
+        <activity android:name=".radio.RadioActivity"></activity>
     </application>
 
 </manifest>
