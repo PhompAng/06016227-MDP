@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.phompang.myapplication.autocompletetextview.AutoCompleteTextViewActivity;
+import com.example.phompang.myapplication.spinner.SpinnerActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -87,7 +88,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(MainActivity.this, AutoCompleteTextViewActivity.class);
             startActivity(intent);
         } else if (id == R.id.spinner) {
-
+            Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
