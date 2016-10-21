@@ -23,7 +23,9 @@
         <activity android:name=".radio.RadioActivity" />
         <activity android:name=".checkbox.CheckBoxActivity" />
         <activity android:name=".listview.ListActivity" />
-        <activity android:name=".listview.ListDetailActivity"></activity>
+        <activity android:name=".listview.ListDetailActivity" />
+        <activity android:name=".bundle.BundleActivity"></activity>
+        <!-- android:configChanges="orientation|screenSize" -->
     </application>
 
 </manifest>
